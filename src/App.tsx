@@ -1,5 +1,5 @@
 import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
+//import viteLogo from './assets/vite.svg'
 
 import './App.css'
 
@@ -21,7 +21,7 @@ function App() {
           Bienvenidos a mi página de inicio
         </h1>
         <div className="flex space-x-16">
-          <img src={viteLogo} alt="Vite logo" className="h-24 w-24" />
+         {/* <img src={viteLogo} alt="Vite logo" className="h-24 w-24" />*/}
           <img src={reactLogo} alt="React logo" className="h-24 w-24" />
         </div>
       </main>
