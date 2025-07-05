@@ -1,6 +1,3 @@
-import reactLogo from './assets/react.svg'
-
-
 import './App.css'
 
 function App() {
@@ -21,7 +18,7 @@ function App() {
           Bienvenidos a mi página de inicio
         </h1>
         <div className="flex space-x-16">
-          <img src={reactLogo} alt="React logo" className="h-24 w-24" />
+          {/* Imagen eliminada para evitar error con vite.svg */}
         </div>
       </main>
     </div>
